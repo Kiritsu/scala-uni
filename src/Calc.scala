@@ -25,6 +25,6 @@ object Calc {
     println("Expression : " + exp)
     println("Valeur : " + eval(exp, env))
     println("Derivee : " + derive(exp, "x"))
-    println("Derivee valeur : " + eval(derive(exp, "y"), env))
+    println("Derivee valeur : " + eval(derive(exp, "x"), env))
   }
 }
